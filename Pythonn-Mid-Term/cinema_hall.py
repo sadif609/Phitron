@@ -23,7 +23,6 @@ class Hall(Star_Cinema):
     def entry_show(self, show_id, movie_name, time):
         self.__show_list.append((show_id, movie_name, time))
         self.__seats[show_id] = [['F' for _ in range(self._cols)] for _ in range(self._rows)]
-        print(f"Show ID: {show_id}, Movie Name: {movie_name}, Time: {time} added to Hall Number: {self._hall_no}")
 
     def book_seats(self, show_id, seat_list):
         if show_id not in self.__seats:
@@ -53,12 +52,12 @@ class Hall(Star_Cinema):
         for row in self.__seats[show_id]:
             print(" ".join(row))
 
-# adding shows
+
 hall1 = Hall(5, 6, 1)
 hall1.entry_show('111', 'Kalki', '12:00 PM')
 hall1.entry_show('222', 'Tufan', '3:00 PM')
 
-# display manu funtion
+
 def menu():
     while True:
         print("\n1. View all shows today")
