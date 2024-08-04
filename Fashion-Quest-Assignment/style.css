@@ -1,0 +1,580 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar section css start  */
+.header-container {
+    background-color: #1A187A;
+}
+
+.navbar-logo {
+    width: 380px;
+}
+
+.menus-clr {
+    opacity: 0.4;
+}
+
+/* navbar section css end  */
+
+/* slider section css start  */
+.slider {
+    background-image: url(Images/background-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-size {
+    height: 670px;
+}
+
+.img-size {
+    margin-top: 130px;
+}
+
+.small-title {
+    color: #1E046A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    opacity: 0.4;
+}
+
+.slider-title {
+    color: #000;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.banner-desc {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.slider-btn {
+    background-color: #171495;
+    padding: 13px 35px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* slider section css end  */
+
+/* another slider section css start  */
+.left {
+    height: 600px;
+    background-color: red;
+}
+
+.right {
+    height: 600px;
+    background-color: #EDEDED;
+}
+
+.left1 {
+    height: 328px;
+    background-color: #fff;
+}
+
+.left2 {
+    height: 272px;
+    background-color: #ADC2D7;
+}
+
+.inner-around {
+    padding: 0px 20px 0px 0px;
+}
+
+
+.inner-image-size {
+    width: 455px;
+    height: 340px;
+    margin-top: 25px;
+}
+
+.inner-left-title1 {
+    color: #000;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 70px;
+}
+
+.inner-left-desc {
+    color: #909090;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.inner-left2 {
+    padding: 0px 0px 0px 20px;
+}
+
+.inner-image-size2 {
+    width: 385px;
+    height: 272px;
+}
+
+.inner-left-title4 {
+    color: #000;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.inner-left-desc2 {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-right: 10px;
+}
+
+.right-inner-section {
+    padding: 120px 0px 120px 30px;
+}
+
+.right-title {
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 56px;
+}
+
+.right-desc {
+    color: #909090;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.right-btn {
+    padding: 13px 35px;
+    border-radius: 6px;
+    background: #27448E;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+
+.inner-right1 {
+    margin-top: 150px;
+}
+
+.inner-right-2 {
+    overflow: hidden;
+}
+
+.right-img {
+    width: 600px;
+    height: 400px;
+}
+
+/* another slider section css end  */
+
+/* categories section css start here  */
+.categories-design {
+    width: 160px;
+    height: 130px;
+    padding: 30px 15px;
+    gap: 8px;
+    background-color: #EDEDED;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.categories {
+    padding: 80px 0px;
+    background-color: #fafafa;
+}
+
+.categories-content {
+    margin-bottom: 20px;
+}
+
+.category-title {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.category-title-style {
+    width: 310px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.categories-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* categories section css end here  */
+
+
+/* card section css start here  */
+
+.card-background {
+    background-color: #fff;
+    padding: 56px 0px;
+}
+
+.card-title-container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.arival-title {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.list-style-title1 {
+    color: #8B8B8B;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.card1 {
+    width: 268px;
+    height: 456px;
+    padding: 24px 16px;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #f6f6f6;
+}
+
+.card2 {
+    width: 268px;
+    height: 432px;
+    padding: 24px 16px;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #f6f6f6;
+}
+
+.love-icon {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.image-items {
+    text-align: center;
+}
+
+.card-image-style {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-description {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card-price {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.72px;
+    margin-bottom: 15px;
+}
+
+.card-btn {
+    border-radius: 8px;
+    background: #000;
+    padding: 12px 64px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn-style {
+    text-align: center;
+}
+
+/* card section css end here  */
+
+/* campain section css start  */
+.campain-background {
+    background-color: #958AD4;
+    padding: 104px 0px;
+}
+
+.campain-left-image {
+    margin-left: -130px;
+}
+
+.campain-left-img-size {
+    width: 421px;
+    height: 342px;
+    overflow: hidden;
+}
+
+.campain-right-img-size {
+    width: 305px;
+    height: 357px;
+    overflow: hidden;
+}
+
+.campain-title {
+    color: #25177B;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.campain-inner-title {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+}
+
+.campain-desc {
+    align-items: center;
+    width: 350px;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* campain section css end  */
+
+/* footer section css start here  */
+
+.footer-background {
+    background-color: #000;
+    padding: 104px 0px;
+}
+
+.footer-list-title {
+    color: #FFF;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 16px;
+}
+
+.footer-list {
+    list-style: none;
+    color: #CFCFCF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+/* footer section css end here  */
+
+
+
+/* responsive css code start here  */
+@media (min-width: 0px) and (max-width: 425px) {
+
+    /* header responsive css code start  */
+    .search-bar {
+        margin-top: 20px;
+    }
+
+    /* header responsive css code end  */
+
+    /* slider responsive code start here  */
+    .banner-text {
+        text-align: center;
+    }
+
+    .small-title {
+        margin-top: 35px;
+    }
+
+    .slider-title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .banner-desc {
+        font-size: 13px;
+    }
+
+    .img-size {
+        margin-top: 82px;
+    }
+
+    /* slider responsive code end here  */
+
+    /* another slider responsive code start here  */
+    .inner-image-size {
+        width: 275px;
+        height: 143px;
+        margin-top: 15px;
+    }
+
+    .right-inner-section {
+        text-align: center;
+    }
+
+    .inner-left2{
+        width: 300px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .inner-right1 {
+        margin-bottom: 25px;
+    }
+
+    .right-inner-section {
+        padding: 41px 0px 120px 30px;
+    }
+
+    .right-img {
+        width: 270px;
+        height: 162px;
+    }
+
+    /* another slider responsive code end here  */
+
+    /* categories reponsive css code start here  */
+    .category-title-style {
+        width: 225px;
+        font-size: 22px;
+        margin-bottom: -40px;
+    }
+
+    .categories-design {
+        width: 315px;
+        height: 172px;
+        margin-bottom: 25px;
+    }
+
+    .category-icon-size {
+        width: 100px;
+        height: 100px;
+    }
+
+    .category-title {
+        font-size: 35px;
+    }
+
+    /* categories reponsive css code end here  */
+
+    /* card section responsive css code start here  */
+    .card1 {
+        margin-bottom: 30px;
+        width: 340px;
+    }
+
+    .card2 {
+        margin-bottom: 30px;
+        width: 340px;
+    }
+
+    /* .card-title-container {
+        justify-content: space-around;
+    } */
+
+    /* card section responsive css code end here  */
+
+    /* camapin section responsive css code start here  */
+    .campain-left-image {
+        margin-left: 0px;
+        margin-top: -90px;
+    }
+
+    .campain-left-img-size {
+        width: 325px;
+        height: 250px;
+    }
+
+    .campain-right-img-size {
+        width: 398px;
+    }
+
+    /* camapin section responsive css code end here  */
+
+    /* footer section responsive css code start here  */
+    .footer-list-style {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer-background{
+        position: relative;
+    }
+
+    .footer-icon {
+        position: absolute;
+        bottom: 80px;
+        ;
+        right: 142px;
+        gap: 25px;
+    }
+
+    .footer-logo {
+        width: 280px;
+    }
+
+    /* footer section responsive css code end here  */
+
+}
+
+
+
+
+/* responsive css code end here  */
